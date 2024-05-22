@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        const el = document.createElement('h2')
-        el.innerText = 'document.write()'
-        document.write(el.outerHTML)
+        document.write('<h1>Praktikum Pemrograman Web 1</h1>')
+        console.log('Hello World')
     </script>
 </head>
 
@@ -18,7 +17,7 @@
     <button onclick="alert('Hello World!')">Click Me!</button>
 
     <script>
-        document.getElementById('clock').innerHTML = '<i>'+new Date().toLocaleString('en-US', { hour12: false })+'</i>'
+        document.getElementById('clock').innerHTML = '<i>' + new Date().toLocaleString('en-US', { hour12: false }) + '</i>'
     </script>
 </body>
 
